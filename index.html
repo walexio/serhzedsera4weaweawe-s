@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chatbot con OpenAI</title>
+</head>
+<body>
+<div id="cajamadre">
+  <nav id="navegador"> 
+    <div id="q1">
+    
+      <h1>¿Cómo funciona el Chat?</h1>
+      <h2> el chat utiliza una arquitectura de modelo de lenguaje llamada GPT (Generative Pre-trained Transformer). Se entrena con grandes cantidades de datos para aprender patrones en el lenguaje y generar respuestas coherentes y contextuales.</h2>
+    </div>
+    <div id="q1">
+    
+      <h1>¿El chat tiene límites en el número de palabras en una respuesta?</h1>
+      <h2>: Sí, hay límites en la cantidad de tokens que el modelo puede generar en una respuesta. Superar esos límites puede resultar en respuestas truncadas. Es importante tener en cuenta estos límites al interactuar con el modelo.</h2>
+    </div>
+    
+    <div id="q1">
+    
+      <h1>¿Cómo se maneja la seguridad y la privacidad en el uso del Chat?</h1>
+      <h2>OpenAI implementa medidas de seguridad, pero es esencial que los usuarios eviten compartir información confidencial durante las interacciones. Además, OpenAI ofrece opciones de uso más seguro, como la utilización del modo seguro para reducir contenido inapropiado.</h2>
+    </div>
+    
+
+    
+
+
+  </nav>
+  <div id="cajasecundaria">
+    <h1>OpenAI Javascript</h1>
+
+    <input type="text" placeholder="Write your prompt" id="prompt">
+    <button id="generate">Generate</button>
+
+    <p id="output"></p>
+</div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

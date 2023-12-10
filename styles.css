@@ -1,0 +1,33 @@
+body { margin:0px ;
+}
+
+
+#cajamadre {
+width: 100vw;
+height: 100vh;
+background-color: rgb(206, 206, 206);
+display: flex;
+}
+
+
+
+#navegador {
+  height: 100vh;
+  width: 20vw;
+  background-color: rgb(82, 82, 82);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+#cajasecundaria {
+  background-color: rgb(102, 102, 102);
+  width: 80vw;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+  
+  text-align: center;
+}
+#q1{
+  text-align: center;
+  background-color: rgba(141, 138, 138, 0.747);
+  width: 20vw;;
+  
+}
